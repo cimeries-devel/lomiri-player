@@ -1,0 +1,5 @@
+FROM docker.io/clickable/amd64-20.04-amd64
+ARG GOPATH="/home/eder/.clickable/go" SDK_FRAMEWORK="ubuntu-sdk-20.04" QT_VERSION="5.12" ARCH="all" ARCH_TRIPLET="all" ARCH_RUST="x86_64-unknown-linux-gnu" NUM_PROCS="4" ROOT="/home/eder/Cimeries/utouch/lomiri" BUILD_DIR="/home/eder/Cimeries/utouch/lomiri/build/all/app" SRC_DIR="/home/eder/Cimeries/utouch/lomiri" INSTALL_DIR="/home/eder/Cimeries/utouch/lomiri/build/all/app/install" CLICK_LD_LIBRARY_PATH="/home/eder/Cimeries/utouch/lomiri/build/all/app/install/lib" CLICK_PATH="/home/eder/Cimeries/utouch/lomiri/build/all/app/install" CLICK_QML2_IMPORT_PATH="/home/eder/Cimeries/utouch/lomiri/build/all/app/install/qml"
+
+RUN echo set debconf/frontend Noninteractive | debconf-communicate && echo set debconf/priority critical | debconf-communicate
+RUN apt-get update && apt-get install -y --force-yes --no-install-recommends cmake-extras && apt-get clean

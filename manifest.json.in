@@ -1,0 +1,21 @@
+{
+    "architecture": "all",
+    "description": "A music application for Ubuntu Touch",
+    "framework": "ubuntu-sdk-20.04",
+    "hooks": {
+        "music": {
+            "apparmor": "apparmor.json",
+            "content-hub": "music-app-content.json",
+            "desktop": "@DESKTOP_FILE@",
+            "urls": "@URLS_FILE@"
+        }
+    },
+    "icon": "@ICON@",
+    "maintainer": "UBports <dev@ubports.com>",
+    "name": "@CLICK_NAME@",
+    "title": "Music",
+    "version": "@PROJECT_VERSION@",
+    "x-test": {
+        "autopilot": "@AUTOPILOT_DIR@"
+    }
+}

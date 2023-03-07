@@ -1,0 +1,10 @@
+clickable_minimum_required: '7.5.0'
+
+builder: pure-qml-cmake
+
+framework: ubuntu-sdk-20.04
+
+dependencies_host:
+- cmake-extras
+
+kill: app/music-app.qml

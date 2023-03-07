@@ -1,0 +1,424 @@
+# Persian translation for music-app
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the music-app package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: music-app\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-18 11:47+0000\n"
+"PO-Revision-Date: 2022-03-10 09:21+0000\n"
+"Last-Translator: Behzad <behzadasbahi@gmail.com>\n"
+"Language-Team: Persian <https://translate.ubports.com/projects/ubports/music-"
+"app/fa/>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.11.3\n"
+"X-Launchpad-Export-Date: 2017-04-14 05:53+0000\n"
+
+#: lomiri-music-app.desktop.in:3 app/music-app.qml:296
+msgid "Music"
+msgstr "آهنگ"
+
+#: lomiri-music-app.desktop.in:4
+#, fuzzy
+#| msgid "A music application for Ubuntu"
+msgid "A music application for Lomiri"
+msgstr "یک نرم‌افزار موسیقی برای اوبونتو"
+
+#: lomiri-music-app.desktop.in:5
+msgid "music;songs;play;tracks;player;tunes;"
+msgstr "موسیقی;آهنگ‌ها;پخش;قظعه‌ها;پخش‌کننده;صداها;"
+
+#: lomiri-music-app.desktop.in:9
+msgid "/usr/share/lomiri-music-app/app/graphics/music-app.svg"
+msgstr ""
+
+#: app/components/Dialog/ContentHubErrorDialog.qml:35
+msgid "OK"
+msgstr "قبول"
+
+#: app/components/Dialog/ContentHubNotFoundDialog.qml:29
+msgid "Imported file not found"
+msgstr "پرونده‌ی وارد شده یافت نشد"
+
+#: app/components/Dialog/ContentHubNotFoundDialog.qml:33
+msgid "Wait"
+msgstr "صبر کنید"
+
+#: app/components/Dialog/ContentHubNotFoundDialog.qml:43
+#: app/components/Dialog/EditPlaylistDialog.qml:76
+#: app/components/Dialog/NewPlaylistDialog.qml:71
+#: app/components/Dialog/RemovePlaylistDialog.qml:60
+msgid "Cancel"
+msgstr "لغو"
+
+#: app/components/Dialog/ContentHubWaitDialog.qml:34
+msgid "Waiting for file(s)..."
+msgstr "در حال  انتظار برای پرونده(ها)…"
+
+#. TRANSLATORS: this is a title of a dialog with a prompt to rename a playlist
+#: app/components/Dialog/EditPlaylistDialog.qml:30
+msgid "Rename playlist"
+msgstr "تغییرنام فهرست‌پخش"
+
+#: app/components/Dialog/EditPlaylistDialog.qml:37
+#: app/components/Dialog/NewPlaylistDialog.qml:34
+msgid "Enter playlist name"
+msgstr "نام فهرست‌پخش را وارد کنید"
+
+#: app/components/Dialog/EditPlaylistDialog.qml:46
+msgid "Change"
+msgstr "تغییر"
+
+#: app/components/Dialog/EditPlaylistDialog.qml:67
+#: app/components/Dialog/NewPlaylistDialog.qml:60
+msgid "Playlist already exists"
+msgstr "فهرست‌پخش از پیش وجود دارد"
+
+#: app/components/Dialog/EditPlaylistDialog.qml:71
+#: app/components/Dialog/NewPlaylistDialog.qml:65
+msgid "Please type in a name."
+msgstr "لطفاُ یک نام بنویسید."
+
+#: app/components/Dialog/NewPlaylistDialog.qml:30
+msgid "New playlist"
+msgstr "فهرست پخش جدید"
+
+#: app/components/Dialog/NewPlaylistDialog.qml:44
+msgid "Create"
+msgstr "ساختن"
+
+#. TRANSLATORS: this is a title of a dialog with a prompt to delete a playlist
+#: app/components/Dialog/RemovePlaylistDialog.qml:31
+msgid "Permanently delete playlist?"
+msgstr "حذف دایمی فهرست‌پخش؟"
+
+#: app/components/Dialog/RemovePlaylistDialog.qml:32
+msgid "This cannot be undone"
+msgstr "این کار قابل برگرداندن نیست."
+
+#: app/components/Dialog/RemovePlaylistDialog.qml:37
+#: app/components/ListItemActions/Remove.qml:27
+msgid "Remove"
+msgstr "برداشتن"
+
+#: app/components/HeadState/MultiSelectHeadState.qml:36
+msgid "Cancel selection"
+msgstr "لغو انتخاب"
+
+#: app/components/HeadState/MultiSelectHeadState.qml:47
+msgid "Select All"
+msgstr "انتخاب همه"
+
+#. TRANSLATORS: this action appears in the overflow drawer with limited space (around 18 characters)
+#: app/components/HeadState/MultiSelectHeadState.qml:58
+#: app/components/HeadState/QueueHeadState.qml:51
+#: app/components/ListItemActions/AddToPlaylist.qml:26
+msgid "Add to playlist"
+msgstr "افزودن به فهرست پخش"
+
+#: app/components/HeadState/MultiSelectHeadState.qml:76
+msgid "Add to queue"
+msgstr "افزودن به صف"
+
+#: app/components/HeadState/MultiSelectHeadState.qml:94
+msgid "Delete"
+msgstr "حذف"
+
+#. TRANSLATORS: this action appears in the overflow drawer with limited space (around 18 characters)
+#: app/components/HeadState/QueueHeadState.qml:67
+msgid "Clear queue"
+msgstr "پاک‌سازی صف"
+
+#: app/components/HeadState/SearchHeadState.qml:38
+msgid "Search music"
+msgstr "جست‌وجوی آهنگ"
+
+#. TRANSLATORS: This string represents that the target destination filepath does not start with ~/Music/Imported/
+#: app/components/Helpers/ContentHubHelper.qml:87
+#, fuzzy, qt-format
+#| msgid "Filepath must start with"
+msgid "Filepath must start with %1"
+msgstr "مسیر پرونده باید با این شروع شود:"
+
+#. TRANSLATORS: This string represents that a blank filepath destination has been used
+#: app/components/Helpers/ContentHubHelper.qml:115
+msgid "Filepath must be a file"
+msgstr "مسیر پرونده باید یک پرونده باشد"
+
+#. TRANSLATORS: This string represents that there was failure moving the file to the target destination
+#: app/components/Helpers/ContentHubHelper.qml:121
+#, fuzzy
+#| msgid "Failed to move file"
+msgid "Failed to copy file"
+msgstr "شکست در جابه‌جایی پرونده"
+
+#. TRANSLATORS: this refers to a number of tracks greater than one. The actual number will be prepended to the string automatically (plural forms are not yet fully supported in usermetrics, the library that displays that string)
+#: app/components/Helpers/UserMetricsHelper.qml:31
+msgid "tracks played today"
+msgstr "قطعه امروز پخش شد"
+
+#: app/components/Helpers/UserMetricsHelper.qml:32
+msgid "No tracks played today"
+msgstr "امروز هیچ قطعه‌ای پخش نشد"
+
+#: app/components/ListItemActions/AddToQueue.qml:28
+msgid "Add to Queue"
+msgstr "افزودن به صف"
+
+#: app/components/LoadingSpinnerComponent.qml:47
+msgid "Loading..."
+msgstr "در حال بارگذاری…"
+
+#: app/components/MusicPage.qml:83
+msgid "No items found"
+msgstr "هیچ موردی پیدا نشد"
+
+#: app/components/MusicToolbar.qml:91
+msgid "Tap to shuffle music"
+msgstr "برای بر زدن آهنگ‌ها ضربه بزنید"
+
+#: app/components/PlaylistsEmptyState.qml:44
+msgid "No playlists found"
+msgstr "هیچ فهرست پخشی یافت نشد"
+
+#: app/components/PlaylistsEmptyState.qml:55
+#, qt-format
+msgid ""
+"Get more out of Music by tapping the %1 icon to start making playlists for "
+"every mood and occasion."
+msgstr ""
+"با زدن روی شمایل %1 برای شروع ساخت فهرست‌پخش‌هایی برای هر حال و هوا، از آهنگ‌ها "
+"بیش‌تر بهره ببرید."
+
+#. TRANSLATORS: this appears in a button with limited space (around 14 characters)
+#: app/components/ViewButton/PlayAllButton.qml:28
+msgid "Play all"
+msgstr "پخش همه"
+
+#. TRANSLATORS: this appears in a button with limited space (around 14 characters)
+#: app/components/ViewButton/QueueAllButton.qml:45
+msgid "Queue all"
+msgstr "به صف کردن همه"
+
+#. TRANSLATORS: this appears in a button with limited space (around 14 characters)
+#: app/components/ViewButton/ShuffleButton.qml:45
+msgid "Shuffle"
+msgstr "بر زدن"
+
+#: app/components/Walkthrough/Slide1.qml:60
+msgid "Welcome to Music"
+msgstr "به آهنگ‌ها خوش آمدید"
+
+#: app/components/Walkthrough/Slide1.qml:74
+#, fuzzy
+#| msgid ""
+#| "Enjoy your favorite music with Ubuntu's Music App. Take a short tour on "
+#| "how to get started or press skip to start listening now."
+msgid ""
+"Enjoy your favorite music with Lomiri's Music App. Take a short tour on how "
+"to get started or press skip to start listening now."
+msgstr ""
+"با اپ آهنگ‌های اوبونتو از آهنگ‌های دلخواهتان لذّت ببرید. تور کوتاهی درباره‌ی "
+"چگونه شروع کردن بگذرانید یا برای شروع گوش کردن «پرش» را  فشار دهید."
+
+#: app/components/Walkthrough/Slide2.qml:55
+msgid "Import your music"
+msgstr "آهنگ‌هایتان را وارد کنید"
+
+#: app/components/Walkthrough/Slide2.qml:68 app/ui/LibraryEmptyState.qml:134
+msgid ""
+"Connect your device to any computer and simply drag files to the Music "
+"folder or insert removable media with music."
+msgstr ""
+"دستگاهتان را به هر رایانه‌ای وصل کرده و به سادگی پرونده‌ها را به پوشه‌ی آهنگ‌ها "
+"بکشید یا رسانه‌ی قابل حمل شامل آهنگی وارد کنید."
+
+#: app/components/Walkthrough/Slide3.qml:55
+msgid "Download new music"
+msgstr "بارگیری آهنگ‌های جدید"
+
+#: app/components/Walkthrough/Slide3.qml:68
+msgid "Directly import music bought while browsing online."
+msgstr "ورود مستقیم آهنگ‌های خریده شده هنگام مرور برخط."
+
+#: app/components/Walkthrough/Slide3.qml:82
+msgid "Start"
+msgstr "شروع"
+
+#: app/components/Walkthrough/Walkthrough.qml:119
+msgid "Skip"
+msgstr "پرش"
+
+#: app/music-app.qml:183
+msgid "Next"
+msgstr "پسین"
+
+#: app/music-app.qml:184
+msgid "Next Track"
+msgstr "قطعه‌ی بعدی"
+
+#: app/music-app.qml:190
+msgid "Pause"
+msgstr "مکث"
+
+#: app/music-app.qml:190
+msgid "Play"
+msgstr "پخش"
+
+#: app/music-app.qml:192
+msgid "Pause Playback"
+msgstr "توقف پخش"
+
+#: app/music-app.qml:192
+msgid "Continue or start playback"
+msgstr "ادامه یا شروع پخش"
+
+#: app/music-app.qml:197
+msgid "Back"
+msgstr "بازگشت"
+
+#: app/music-app.qml:198
+msgid "Go back to last page"
+msgstr "رفتن به صفحه‌ی قبلی"
+
+#: app/music-app.qml:206
+msgid "Previous"
+msgstr "پیشین"
+
+#: app/music-app.qml:207
+msgid "Previous Track"
+msgstr "قطعه‌ی پیشین"
+
+#: app/music-app.qml:212
+msgid "Stop"
+msgstr "توقف"
+
+#: app/music-app.qml:213
+msgid "Stop Playback"
+msgstr "توقف پخش"
+
+#: app/music-app.qml:325
+msgid "Debug: "
+msgstr "رفع اشکال: "
+
+#: app/music-app.qml:749 app/ui/AddToPlaylist.qml:117 app/ui/Recent.qml:79
+#: app/ui/SongsView.qml:90
+msgid "Recent"
+msgstr "اخیر"
+
+#: app/music-app.qml:799 app/ui/Artists.qml:36
+msgid "Artists"
+msgstr "هنرمندان"
+
+#: app/music-app.qml:821 app/ui/Albums.qml:32
+msgid "Albums"
+msgstr "آلبوم‌ها"
+
+#: app/music-app.qml:843 app/ui/Genres.qml:32
+msgid "Genres"
+msgstr "سبک‌ها"
+
+#: app/music-app.qml:865 app/ui/Songs.qml:36
+msgid "Tracks"
+msgstr "قطعه‌ها"
+
+#. TRANSLATORS: this is the name of the playlists page shown in the tab header.
+#. Remember to keep the translation short to fit the screen width
+#: app/music-app.qml:887 app/ui/AddToPlaylist.qml:107 app/ui/Playlists.qml:36
+#: app/ui/SongsView.qml:102
+msgid "Playlists"
+msgstr "فهرست‌های پخش"
+
+#. TRANSLATORS: this appears in the header with limited space (around 20 characters)
+#: app/music-app.qml:953 app/ui/NowPlaying.qml:117
+msgid "Now playing"
+msgstr "درحال پخش"
+
+#. TRANSLATORS: this appears in the header with limited space (around 20 characters)
+#: app/ui/AddToPlaylist.qml:43
+msgid "Select playlist"
+msgstr "انتخاب فهرست پخش"
+
+#: app/ui/AddToPlaylist.qml:102 app/ui/Playlists.qml:87
+#: app/ui/SongsView.qml:278 app/ui/SongsView.qml:279
+#, qt-format
+msgid "%1 track"
+msgid_plural "%1 tracks"
+msgstr[0] "%1 قطعه"
+
+#: app/ui/Albums.qml:75 app/ui/ArtistView.qml:146 app/ui/ArtistView.qml:159
+#: app/ui/Recent.qml:113 app/ui/SongsView.qml:226
+msgid "Unknown Album"
+msgstr "آلبوم نامعلوم"
+
+#: app/ui/Albums.qml:79 app/ui/SongsView.qml:249
+#, fuzzy
+#| msgid "Previous"
+msgid "Various"
+msgstr "پیشین"
+
+#: app/ui/Albums.qml:85 app/ui/ArtistView.qml:85 app/ui/ArtistView.qml:158
+#: app/ui/Artists.qml:79 app/ui/Recent.qml:114 app/ui/SongsView.qml:255
+msgid "Unknown Artist"
+msgstr "هنرمند ناشناس"
+
+#: app/ui/Albums.qml:96 app/ui/ArtistView.qml:157 app/ui/Recent.qml:129
+msgid "Album"
+msgstr "آلبوم"
+
+#: app/ui/ArtistView.qml:104
+#, qt-format
+msgid "%1 album"
+msgid_plural "%1 albums"
+msgstr[0] "%1 آلبوم"
+
+#: app/ui/Artists.qml:87
+msgid "Artist"
+msgstr "هنرمند"
+
+#: app/ui/ContentHubExport.qml:34
+msgid "Export Track"
+msgstr "صدور قطعه"
+
+#: app/ui/Genres.qml:111 app/ui/Genres.qml:113 app/ui/SongsView.qml:178
+#: app/ui/SongsView.qml:193 app/ui/SongsView.qml:212 app/ui/SongsView.qml:258
+#: app/ui/SongsView.qml:277 app/ui/SongsView.qml:304
+msgid "Genre"
+msgstr "سبک"
+
+#: app/ui/LibraryEmptyState.qml:122
+msgid "No music found"
+msgstr "هیچ آهنگی پیدا نشد"
+
+#. TRANSLATORS: this appears in the header with limited space (around 20 characters)
+#: app/ui/NowPlaying.qml:119
+msgid "Full view"
+msgstr "نمای کامل"
+
+#. TRANSLATORS: this appears in the header with limited space (around 20 characters)
+#: app/ui/NowPlaying.qml:121
+msgid "Queue"
+msgstr "صف"
+
+#: app/ui/Playlists.qml:99 app/ui/Playlists.qml:100 app/ui/Recent.qml:114
+#: app/ui/Recent.qml:129 app/ui/SongsView.qml:66 app/ui/SongsView.qml:81
+#: app/ui/SongsView.qml:113 app/ui/SongsView.qml:123 app/ui/SongsView.qml:165
+#: app/ui/SongsView.qml:180 app/ui/SongsView.qml:195 app/ui/SongsView.qml:211
+#: app/ui/SongsView.qml:257 app/ui/SongsView.qml:287 app/ui/SongsView.qml:290
+#: app/ui/SongsView.qml:306
+msgid "Playlist"
+msgstr "فهرست‌پخش"
+
+#: app/ui/SettingsPage.qml:26
+msgid "Settings"
+msgstr ""
+
+#: app/ui/SettingsPage.qml:66
+msgid "Keep screen on while music is played"
+msgstr ""

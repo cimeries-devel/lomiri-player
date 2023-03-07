@@ -1,0 +1,47 @@
+Source: lomiri-music-app
+Section: misc
+Priority: extra
+Maintainer: UBports Developers <devs@ubports.com>
+Build-Depends: cmake,
+               debhelper-compat (= 12),
+               intltool,
+               python3:any,
+               qt5-default,
+Standards-Version: 3.9.4
+Homepage: https://gitlab.com/ubports/development/apps/lomiri-music-app
+Vcs-Git: https://gitlab.com/ubports/development/apps/lomiri-music-app.git
+Vcs-Browser: https://gitlab.com/ubports/development/apps/lomiri-music-app
+
+Package: lomiri-music-app
+Architecture: all
+Depends: mediascanner2.0,
+         qmlscene,
+         qml-module-qt-labs-settings,
+         qml-module-qtmultimedia (>=5.5.1-1ubuntu2),
+         qml-module-lomiri-content,
+         qml-module-qtquick-localstorage,
+         qml-module-qtquick-particles2,
+         qml-module-qtmultimedia,
+         qml-module-qtquick2,
+         qml-module-mediascanner0.1,
+         qml-module-lomiri-thumbnailer0.1,
+         qml-module-lomiri-components,
+         qml-module-lomiri-layouts,
+         qml-module-lomiri-performancemetrics,
+         qtdeclarative5-usermetrics0.1,
+         qml-module-qtquick-window2,
+         lomiri-thumbnailer-service,
+         suru-icon-theme | ubuntu-mobile-icons,
+         ${misc:Depends},
+Description: Music player for Ubuntu Touch
+ Touch enabled music player for Ubuntu Touch.
+
+Package: lomiri-music-app-autopilot
+Architecture: all
+Depends: libautopilot-qt (>= 1.4),
+         libqt5test5,
+         lomiri-music-app (= ${source:Version}),
+         lomiri-ui-toolkit-autopilot,
+         ${misc:Depends},
+Description: Autopilot tests for Music App
+ This package contains the autopilot tests for the Music App

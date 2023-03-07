@@ -1,0 +1,426 @@
+# Esperanto translation for music-app
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the music-app package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: music-app\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-18 11:47+0000\n"
+"PO-Revision-Date: 2023-02-16 22:38+0000\n"
+"Last-Translator: phlostically <phlostically@mailinator.com>\n"
+"Language-Team: Esperanto <https://hosted.weblate.org/projects/lomiri/"
+"lomiri-music-app/eo/>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16-dev\n"
+"X-Launchpad-Export-Date: 2017-04-14 05:53+0000\n"
+
+#: lomiri-music-app.desktop.in:3 app/music-app.qml:296
+msgid "Music"
+msgstr "Muziko"
+
+#: lomiri-music-app.desktop.in:4
+#, fuzzy
+#| msgid "A music application for Ubuntu"
+msgid "A music application for Lomiri"
+msgstr "Muzika aplikaĵo por Ubuntu"
+
+#: lomiri-music-app.desktop.in:5
+msgid "music;songs;play;tracks;player;tunes;"
+msgstr "muziko;kanzonoj,ludi,trakoj,ludilo,agordoj;"
+
+#: lomiri-music-app.desktop.in:9
+msgid "/usr/share/lomiri-music-app/app/graphics/music-app.svg"
+msgstr ""
+
+#: app/components/Dialog/ContentHubErrorDialog.qml:35
+msgid "OK"
+msgstr "Bone"
+
+#: app/components/Dialog/ContentHubNotFoundDialog.qml:29
+msgid "Imported file not found"
+msgstr "Importita dosiero ne trovebla"
+
+#: app/components/Dialog/ContentHubNotFoundDialog.qml:33
+msgid "Wait"
+msgstr "Atendu"
+
+#: app/components/Dialog/ContentHubNotFoundDialog.qml:43
+#: app/components/Dialog/EditPlaylistDialog.qml:76
+#: app/components/Dialog/NewPlaylistDialog.qml:71
+#: app/components/Dialog/RemovePlaylistDialog.qml:60
+msgid "Cancel"
+msgstr "Nuligi"
+
+#: app/components/Dialog/ContentHubWaitDialog.qml:34
+msgid "Waiting for file(s)..."
+msgstr "Atendante dosiero(j)n..."
+
+#. TRANSLATORS: this is a title of a dialog with a prompt to rename a playlist
+#: app/components/Dialog/EditPlaylistDialog.qml:30
+msgid "Rename playlist"
+msgstr "Alinomigi ludliston"
+
+#: app/components/Dialog/EditPlaylistDialog.qml:37
+#: app/components/Dialog/NewPlaylistDialog.qml:34
+msgid "Enter playlist name"
+msgstr "Enigu ludlistan nomon"
+
+#: app/components/Dialog/EditPlaylistDialog.qml:46
+msgid "Change"
+msgstr "Ŝanĝi"
+
+#: app/components/Dialog/EditPlaylistDialog.qml:67
+#: app/components/Dialog/NewPlaylistDialog.qml:60
+msgid "Playlist already exists"
+msgstr "Ludlisto jam ekzistas"
+
+#: app/components/Dialog/EditPlaylistDialog.qml:71
+#: app/components/Dialog/NewPlaylistDialog.qml:65
+msgid "Please type in a name."
+msgstr "Bv. tajpi nomon."
+
+#: app/components/Dialog/NewPlaylistDialog.qml:30
+msgid "New playlist"
+msgstr "Nova ludlisto"
+
+#: app/components/Dialog/NewPlaylistDialog.qml:44
+msgid "Create"
+msgstr "Krei"
+
+#. TRANSLATORS: this is a title of a dialog with a prompt to delete a playlist
+#: app/components/Dialog/RemovePlaylistDialog.qml:31
+msgid "Permanently delete playlist?"
+msgstr "Ĉu vi volas forigi la ludliston permanente?"
+
+#: app/components/Dialog/RemovePlaylistDialog.qml:32
+msgid "This cannot be undone"
+msgstr "Ĉi tio estas nemalfarebla"
+
+#: app/components/Dialog/RemovePlaylistDialog.qml:37
+#: app/components/ListItemActions/Remove.qml:27
+msgid "Remove"
+msgstr "Forigi"
+
+#: app/components/HeadState/MultiSelectHeadState.qml:36
+msgid "Cancel selection"
+msgstr "Nuligi selekton"
+
+#: app/components/HeadState/MultiSelectHeadState.qml:47
+msgid "Select All"
+msgstr "Elekti ĉion"
+
+#. TRANSLATORS: this action appears in the overflow drawer with limited space (around 18 characters)
+#: app/components/HeadState/MultiSelectHeadState.qml:58
+#: app/components/HeadState/QueueHeadState.qml:51
+#: app/components/ListItemActions/AddToPlaylist.qml:26
+msgid "Add to playlist"
+msgstr "Aldoni al ludlisto"
+
+#: app/components/HeadState/MultiSelectHeadState.qml:76
+msgid "Add to queue"
+msgstr "Aldoni al atendovico"
+
+#: app/components/HeadState/MultiSelectHeadState.qml:94
+msgid "Delete"
+msgstr "Forigi"
+
+#. TRANSLATORS: this action appears in the overflow drawer with limited space (around 18 characters)
+#: app/components/HeadState/QueueHeadState.qml:67
+msgid "Clear queue"
+msgstr "Purigi atendovicon"
+
+#: app/components/HeadState/SearchHeadState.qml:38
+msgid "Search music"
+msgstr "Serĉi muzikon"
+
+#. TRANSLATORS: This string represents that the target destination filepath does not start with ~/Music/Imported/
+#: app/components/Helpers/ContentHubHelper.qml:87
+#, fuzzy, qt-format
+#| msgid "Filepath must start with"
+msgid "Filepath must start with %1"
+msgstr "Dosiervojo devas komenci per"
+
+#. TRANSLATORS: This string represents that a blank filepath destination has been used
+#: app/components/Helpers/ContentHubHelper.qml:115
+msgid "Filepath must be a file"
+msgstr "Vi devas enigi dosiervojon"
+
+#. TRANSLATORS: This string represents that there was failure moving the file to the target destination
+#: app/components/Helpers/ContentHubHelper.qml:121
+#, fuzzy
+#| msgid "Failed to move file"
+msgid "Failed to copy file"
+msgstr "Eraro dum la dosier-movo"
+
+#. TRANSLATORS: this refers to a number of tracks greater than one. The actual number will be prepended to the string automatically (plural forms are not yet fully supported in usermetrics, the library that displays that string)
+#: app/components/Helpers/UserMetricsHelper.qml:31
+msgid "tracks played today"
+msgstr "trakoj luditaj hodiaŭ"
+
+#: app/components/Helpers/UserMetricsHelper.qml:32
+msgid "No tracks played today"
+msgstr "Neniu trako ludita hodiaŭ"
+
+#: app/components/ListItemActions/AddToQueue.qml:28
+msgid "Add to Queue"
+msgstr "Aldoni al atendovico"
+
+#: app/components/LoadingSpinnerComponent.qml:47
+msgid "Loading..."
+msgstr "Ŝarĝante..."
+
+#: app/components/MusicPage.qml:83
+msgid "No items found"
+msgstr "Neniu ero trovita"
+
+#: app/components/MusicToolbar.qml:91
+msgid "Tap to shuffle music"
+msgstr "Premu por miksi muzikon"
+
+#: app/components/PlaylistsEmptyState.qml:44
+msgid "No playlists found"
+msgstr "Neniu ludlisto trovita"
+
+#: app/components/PlaylistsEmptyState.qml:55
+#, qt-format
+msgid ""
+"Get more out of Music by tapping the %1 icon to start making playlists for "
+"every mood and occasion."
+msgstr ""
+"Profitu pli de Muziko premante la piktogramon %1 por komenci krei ludlistojn "
+"por ĉiuj atmosferoj kaj okazoj."
+
+#. TRANSLATORS: this appears in a button with limited space (around 14 characters)
+#: app/components/ViewButton/PlayAllButton.qml:28
+msgid "Play all"
+msgstr "Ludi ĉiujn"
+
+#. TRANSLATORS: this appears in a button with limited space (around 14 characters)
+#: app/components/ViewButton/QueueAllButton.qml:45
+msgid "Queue all"
+msgstr "Envicigi ĉiujn"
+
+#. TRANSLATORS: this appears in a button with limited space (around 14 characters)
+#: app/components/ViewButton/ShuffleButton.qml:45
+msgid "Shuffle"
+msgstr "Miksaĵo"
+
+#: app/components/Walkthrough/Slide1.qml:60
+msgid "Welcome to Music"
+msgstr "Bonvenon al Muziko"
+
+#: app/components/Walkthrough/Slide1.qml:74
+#, fuzzy
+#| msgid ""
+#| "Enjoy your favorite music with Ubuntu's Music App. Take a short tour on "
+#| "how to get started or press skip to start listening now."
+msgid ""
+"Enjoy your favorite music with Lomiri's Music App. Take a short tour on how "
+"to get started or press skip to start listening now."
+msgstr ""
+"Ĝuu vian preferatan muzikon dank'al la ubuntua aplikaĵo Muziko. Faru "
+"mallongan lernoviziton aŭ premu sur preterpaŝi por ekaŭskulti nun."
+
+#: app/components/Walkthrough/Slide2.qml:55
+msgid "Import your music"
+msgstr "Importi vian muzikon"
+
+#: app/components/Walkthrough/Slide2.qml:68 app/ui/LibraryEmptyState.qml:134
+msgid ""
+"Connect your device to any computer and simply drag files to the Music "
+"folder or insert removable media with music."
+msgstr ""
+"Konektu vian aparaton al iu komputilo kaj simple ŝovu dosierojn al la Muzika "
+"dosiero aŭ enmetu demeteblan memorilon kun muziko."
+
+#: app/components/Walkthrough/Slide3.qml:55
+msgid "Download new music"
+msgstr "Elŝuti novan muzikon"
+
+#: app/components/Walkthrough/Slide3.qml:68
+msgid "Directly import music bought while browsing online."
+msgstr "Rekte importi muzikon aĉetitan dum retumado."
+
+#: app/components/Walkthrough/Slide3.qml:82
+msgid "Start"
+msgstr "Startigi"
+
+#: app/components/Walkthrough/Walkthrough.qml:119
+msgid "Skip"
+msgstr "Preterpaŝi"
+
+#: app/music-app.qml:183
+msgid "Next"
+msgstr "Sekva"
+
+#: app/music-app.qml:184
+msgid "Next Track"
+msgstr "Sekva trako"
+
+#: app/music-app.qml:190
+msgid "Pause"
+msgstr "Paŭzo"
+
+#: app/music-app.qml:190
+msgid "Play"
+msgstr "Ludi"
+
+#: app/music-app.qml:192
+msgid "Pause Playback"
+msgstr "Paŭzi ludadon"
+
+#: app/music-app.qml:192
+msgid "Continue or start playback"
+msgstr "Daŭrigi aŭ komenci ludadon"
+
+#: app/music-app.qml:197
+msgid "Back"
+msgstr "Reen"
+
+#: app/music-app.qml:198
+msgid "Go back to last page"
+msgstr "Reiri al lasta paĝo"
+
+#: app/music-app.qml:206
+msgid "Previous"
+msgstr "Antaŭa"
+
+#: app/music-app.qml:207
+msgid "Previous Track"
+msgstr "Antaŭa trako"
+
+#: app/music-app.qml:212
+msgid "Stop"
+msgstr "Haltigi"
+
+#: app/music-app.qml:213
+msgid "Stop Playback"
+msgstr "Haltigi ludadon"
+
+#: app/music-app.qml:325
+msgid "Debug: "
+msgstr "Senerarigo: "
+
+#: app/music-app.qml:749 app/ui/AddToPlaylist.qml:117 app/ui/Recent.qml:79
+#: app/ui/SongsView.qml:90
+msgid "Recent"
+msgstr "Freŝdataj"
+
+#: app/music-app.qml:799 app/ui/Artists.qml:36
+msgid "Artists"
+msgstr "Artistoj"
+
+#: app/music-app.qml:821 app/ui/Albums.qml:32
+msgid "Albums"
+msgstr "Albumoj"
+
+#: app/music-app.qml:843 app/ui/Genres.qml:32
+msgid "Genres"
+msgstr "Stiloj"
+
+#: app/music-app.qml:865 app/ui/Songs.qml:36
+msgid "Tracks"
+msgstr "Trakoj"
+
+#. TRANSLATORS: this is the name of the playlists page shown in the tab header.
+#. Remember to keep the translation short to fit the screen width
+#: app/music-app.qml:887 app/ui/AddToPlaylist.qml:107 app/ui/Playlists.qml:36
+#: app/ui/SongsView.qml:102
+msgid "Playlists"
+msgstr "Ludlistoj"
+
+#. TRANSLATORS: this appears in the header with limited space (around 20 characters)
+#: app/music-app.qml:953 app/ui/NowPlaying.qml:117
+msgid "Now playing"
+msgstr "Nun ludante"
+
+#. TRANSLATORS: this appears in the header with limited space (around 20 characters)
+#: app/ui/AddToPlaylist.qml:43
+msgid "Select playlist"
+msgstr "Selekti ludliston"
+
+#: app/ui/AddToPlaylist.qml:102 app/ui/Playlists.qml:87
+#: app/ui/SongsView.qml:278 app/ui/SongsView.qml:279
+#, qt-format
+msgid "%1 track"
+msgid_plural "%1 tracks"
+msgstr[0] "%1 trako"
+msgstr[1] "%1 trakoj"
+
+#: app/ui/Albums.qml:75 app/ui/ArtistView.qml:146 app/ui/ArtistView.qml:159
+#: app/ui/Recent.qml:113 app/ui/SongsView.qml:226
+msgid "Unknown Album"
+msgstr "Nekonita albumo"
+
+#: app/ui/Albums.qml:79 app/ui/SongsView.qml:249
+#, fuzzy
+#| msgid "Previous"
+msgid "Various"
+msgstr "Antaŭa"
+
+#: app/ui/Albums.qml:85 app/ui/ArtistView.qml:85 app/ui/ArtistView.qml:158
+#: app/ui/Artists.qml:79 app/ui/Recent.qml:114 app/ui/SongsView.qml:255
+msgid "Unknown Artist"
+msgstr "Nekonita artisto"
+
+#: app/ui/Albums.qml:96 app/ui/ArtistView.qml:157 app/ui/Recent.qml:129
+msgid "Album"
+msgstr "Albumo"
+
+#: app/ui/ArtistView.qml:104
+#, qt-format
+msgid "%1 album"
+msgid_plural "%1 albums"
+msgstr[0] "%1 albumo"
+msgstr[1] "%1 albumoj"
+
+#: app/ui/Artists.qml:87
+msgid "Artist"
+msgstr "Artisto"
+
+#: app/ui/ContentHubExport.qml:34
+msgid "Export Track"
+msgstr "Eksporti trakon"
+
+#: app/ui/Genres.qml:111 app/ui/Genres.qml:113 app/ui/SongsView.qml:178
+#: app/ui/SongsView.qml:193 app/ui/SongsView.qml:212 app/ui/SongsView.qml:258
+#: app/ui/SongsView.qml:277 app/ui/SongsView.qml:304
+msgid "Genre"
+msgstr "Stilo"
+
+#: app/ui/LibraryEmptyState.qml:122
+msgid "No music found"
+msgstr "Muziko ne estis trovita"
+
+#. TRANSLATORS: this appears in the header with limited space (around 20 characters)
+#: app/ui/NowPlaying.qml:119
+msgid "Full view"
+msgstr "Plena vido"
+
+#. TRANSLATORS: this appears in the header with limited space (around 20 characters)
+#: app/ui/NowPlaying.qml:121
+msgid "Queue"
+msgstr "Atendovico"
+
+#: app/ui/Playlists.qml:99 app/ui/Playlists.qml:100 app/ui/Recent.qml:114
+#: app/ui/Recent.qml:129 app/ui/SongsView.qml:66 app/ui/SongsView.qml:81
+#: app/ui/SongsView.qml:113 app/ui/SongsView.qml:123 app/ui/SongsView.qml:165
+#: app/ui/SongsView.qml:180 app/ui/SongsView.qml:195 app/ui/SongsView.qml:211
+#: app/ui/SongsView.qml:257 app/ui/SongsView.qml:287 app/ui/SongsView.qml:290
+#: app/ui/SongsView.qml:306
+msgid "Playlist"
+msgstr "Ludlisto"
+
+#: app/ui/SettingsPage.qml:26
+msgid "Settings"
+msgstr ""
+
+#: app/ui/SettingsPage.qml:66
+msgid "Keep screen on while music is played"
+msgstr ""

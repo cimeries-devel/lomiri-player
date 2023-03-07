@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=Music
+Comment=A music application for Lomiri
+Keywords=music;songs;play;tracks;player;tunes;
+Type=Application
+Terminal=false
+Exec=@EXEC@
+Icon=@ICON@
+StartupNotify=true
+X-Lomiri-Touch=true
+X-Lomiri-Single-Instance=true
+X-Lomiri-Splash-Show-Header=false
+X-Lomiri-Splash-Title=Music
+X-Lomiri-Splash-Color=#f03051
+X-Lomiri-Splash-Color-Footer=#F1454E
+X-Lomiri-Splash-Color-Header=#EF2459
+X-Lomiri-Splash-Image=@SPLASH@
+X-Lomiri-Default-Department-ID=sound-video

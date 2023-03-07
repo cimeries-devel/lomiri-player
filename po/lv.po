@@ -1,0 +1,426 @@
+# Latvian translation for music-app
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the music-app package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: music-app\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-18 11:47+0000\n"
+"PO-Revision-Date: 2015-11-21 19:04+0000\n"
+"Last-Translator: Rūdolfs Mazurs <Unknown>\n"
+"Language-Team: Latvian <lv@li.org>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2017-04-14 05:53+0000\n"
+"X-Generator: Launchpad (build 18352)\n"
+
+#: lomiri-music-app.desktop.in:3 app/music-app.qml:296
+msgid "Music"
+msgstr "Mūzika"
+
+#: lomiri-music-app.desktop.in:4
+#, fuzzy
+#| msgid "A music application for Ubuntu"
+msgid "A music application for Lomiri"
+msgstr "Mūzikas lietotne Ubuntu videi"
+
+#: lomiri-music-app.desktop.in:5
+msgid "music;songs;play;tracks;player;tunes;"
+msgstr "mūzika;dziesmas;atskaņot;celiņi;atskaņotājs;"
+
+#: lomiri-music-app.desktop.in:9
+msgid "/usr/share/lomiri-music-app/app/graphics/music-app.svg"
+msgstr ""
+
+#: app/components/Dialog/ContentHubErrorDialog.qml:35
+msgid "OK"
+msgstr "Labi"
+
+#: app/components/Dialog/ContentHubNotFoundDialog.qml:29
+msgid "Imported file not found"
+msgstr "Nav atrasta importētā datne"
+
+#: app/components/Dialog/ContentHubNotFoundDialog.qml:33
+msgid "Wait"
+msgstr "Gaidīt"
+
+#: app/components/Dialog/ContentHubNotFoundDialog.qml:43
+#: app/components/Dialog/EditPlaylistDialog.qml:76
+#: app/components/Dialog/NewPlaylistDialog.qml:71
+#: app/components/Dialog/RemovePlaylistDialog.qml:60
+msgid "Cancel"
+msgstr "Atcelt"
+
+#: app/components/Dialog/ContentHubWaitDialog.qml:34
+msgid "Waiting for file(s)..."
+msgstr "Gaida datni(-es)..."
+
+#. TRANSLATORS: this is a title of a dialog with a prompt to rename a playlist
+#: app/components/Dialog/EditPlaylistDialog.qml:30
+msgid "Rename playlist"
+msgstr "Pārdēvēt repertuāru"
+
+#: app/components/Dialog/EditPlaylistDialog.qml:37
+#: app/components/Dialog/NewPlaylistDialog.qml:34
+msgid "Enter playlist name"
+msgstr "Ievadiet repertuāra nosaukumu"
+
+#: app/components/Dialog/EditPlaylistDialog.qml:46
+msgid "Change"
+msgstr "Mainīt"
+
+#: app/components/Dialog/EditPlaylistDialog.qml:67
+#: app/components/Dialog/NewPlaylistDialog.qml:60
+msgid "Playlist already exists"
+msgstr "Repertuārs jau eksistē"
+
+#: app/components/Dialog/EditPlaylistDialog.qml:71
+#: app/components/Dialog/NewPlaylistDialog.qml:65
+msgid "Please type in a name."
+msgstr "Lūdzu, ievadiet nosaukumu."
+
+#: app/components/Dialog/NewPlaylistDialog.qml:30
+msgid "New playlist"
+msgstr "Jauns repertuārs"
+
+#: app/components/Dialog/NewPlaylistDialog.qml:44
+msgid "Create"
+msgstr "Izveidot"
+
+#. TRANSLATORS: this is a title of a dialog with a prompt to delete a playlist
+#: app/components/Dialog/RemovePlaylistDialog.qml:31
+msgid "Permanently delete playlist?"
+msgstr "Pavisam izdzēst repertuāru?"
+
+#: app/components/Dialog/RemovePlaylistDialog.qml:32
+msgid "This cannot be undone"
+msgstr "To nevar atsaukt"
+
+#: app/components/Dialog/RemovePlaylistDialog.qml:37
+#: app/components/ListItemActions/Remove.qml:27
+msgid "Remove"
+msgstr "Izdzēst"
+
+#: app/components/HeadState/MultiSelectHeadState.qml:36
+msgid "Cancel selection"
+msgstr "Atcelt izvēli"
+
+#: app/components/HeadState/MultiSelectHeadState.qml:47
+msgid "Select All"
+msgstr "Izvēlēties visu"
+
+#. TRANSLATORS: this action appears in the overflow drawer with limited space (around 18 characters)
+#: app/components/HeadState/MultiSelectHeadState.qml:58
+#: app/components/HeadState/QueueHeadState.qml:51
+#: app/components/ListItemActions/AddToPlaylist.qml:26
+msgid "Add to playlist"
+msgstr "Pievienot repertuāram"
+
+#: app/components/HeadState/MultiSelectHeadState.qml:76
+msgid "Add to queue"
+msgstr "Pievienot sarakstam"
+
+#: app/components/HeadState/MultiSelectHeadState.qml:94
+msgid "Delete"
+msgstr "Dzēst"
+
+#. TRANSLATORS: this action appears in the overflow drawer with limited space (around 18 characters)
+#: app/components/HeadState/QueueHeadState.qml:67
+msgid "Clear queue"
+msgstr "Attīrīt rindu"
+
+#: app/components/HeadState/SearchHeadState.qml:38
+msgid "Search music"
+msgstr "Meklēt mūziku"
+
+#. TRANSLATORS: This string represents that the target destination filepath does not start with ~/Music/Imported/
+#: app/components/Helpers/ContentHubHelper.qml:87
+#, fuzzy, qt-format
+#| msgid "Filepath must start with"
+msgid "Filepath must start with %1"
+msgstr "Datņu ceļam jāsākas ar"
+
+#. TRANSLATORS: This string represents that a blank filepath destination has been used
+#: app/components/Helpers/ContentHubHelper.qml:115
+msgid "Filepath must be a file"
+msgstr "Datņu ceļam ir jābūt datnei"
+
+#. TRANSLATORS: This string represents that there was failure moving the file to the target destination
+#: app/components/Helpers/ContentHubHelper.qml:121
+#, fuzzy
+#| msgid "Failed to move file"
+msgid "Failed to copy file"
+msgstr "Neizdevās pārvietot datni"
+
+#. TRANSLATORS: this refers to a number of tracks greater than one. The actual number will be prepended to the string automatically (plural forms are not yet fully supported in usermetrics, the library that displays that string)
+#: app/components/Helpers/UserMetricsHelper.qml:31
+msgid "tracks played today"
+msgstr ""
+
+#: app/components/Helpers/UserMetricsHelper.qml:32
+msgid "No tracks played today"
+msgstr ""
+
+#: app/components/ListItemActions/AddToQueue.qml:28
+msgid "Add to Queue"
+msgstr "Pievienot rindai"
+
+#: app/components/LoadingSpinnerComponent.qml:47
+msgid "Loading..."
+msgstr "Ielādē..."
+
+#: app/components/MusicPage.qml:83
+msgid "No items found"
+msgstr "Nekas nav atrasts"
+
+#: app/components/MusicToolbar.qml:91
+msgid "Tap to shuffle music"
+msgstr "Uzsitiet, lai samaisītu mūziku"
+
+#: app/components/PlaylistsEmptyState.qml:44
+msgid "No playlists found"
+msgstr "Nav atrastu repertuāru"
+
+#: app/components/PlaylistsEmptyState.qml:55
+#, qt-format
+msgid ""
+"Get more out of Music by tapping the %1 icon to start making playlists for "
+"every mood and occasion."
+msgstr ""
+"Iegūstiet no Mūzikas vairāk, uzsitot uz ikonas %1, lai sāktu veidot "
+"repertuārus katram noskaņojumam un gadījumam."
+
+#. TRANSLATORS: this appears in a button with limited space (around 14 characters)
+#: app/components/ViewButton/PlayAllButton.qml:28
+msgid "Play all"
+msgstr "Atskaņot visu"
+
+#. TRANSLATORS: this appears in a button with limited space (around 14 characters)
+#: app/components/ViewButton/QueueAllButton.qml:45
+msgid "Queue all"
+msgstr "Ierindot visu"
+
+#. TRANSLATORS: this appears in a button with limited space (around 14 characters)
+#: app/components/ViewButton/ShuffleButton.qml:45
+msgid "Shuffle"
+msgstr "Sajaukt"
+
+#: app/components/Walkthrough/Slide1.qml:60
+msgid "Welcome to Music"
+msgstr "Laipni lūdzam Mūzikas lietotnē"
+
+#: app/components/Walkthrough/Slide1.qml:74
+#, fuzzy
+#| msgid ""
+#| "Enjoy your favorite music with Ubuntu's Music App. Take a short tour on "
+#| "how to get started or press skip to start listening now."
+msgid ""
+"Enjoy your favorite music with Lomiri's Music App. Take a short tour on how "
+"to get started or press skip to start listening now."
+msgstr ""
+"Izbaudiet savu iecienīto mūziku ar Ubuntu Mūzikas lietotni. Apskatiet, kā "
+"sākt to lietot, vai spiediet “Izlaist” un sāciet uzreiz klausīties."
+
+#: app/components/Walkthrough/Slide2.qml:55
+msgid "Import your music"
+msgstr "Importēt savu mūziku"
+
+#: app/components/Walkthrough/Slide2.qml:68 app/ui/LibraryEmptyState.qml:134
+msgid ""
+"Connect your device to any computer and simply drag files to the Music "
+"folder or insert removable media with music."
+msgstr ""
+"Savienojiet savu ierīci ar jebkuru datoru un velciet datnes uz mūzikas mapi "
+"“Music”, vai ievietojiet noņemamu datu nesēju ar mūziku."
+
+#: app/components/Walkthrough/Slide3.qml:55
+msgid "Download new music"
+msgstr "Lejupielādēt jaunu mūziku"
+
+#: app/components/Walkthrough/Slide3.qml:68
+msgid "Directly import music bought while browsing online."
+msgstr "Tieši importējiet mūziku, ko nopirkāt pārlūkojot tiešsaistē."
+
+#: app/components/Walkthrough/Slide3.qml:82
+msgid "Start"
+msgstr "Sākt"
+
+#: app/components/Walkthrough/Walkthrough.qml:119
+msgid "Skip"
+msgstr "Izlaist"
+
+#: app/music-app.qml:183
+msgid "Next"
+msgstr "Nākamais"
+
+#: app/music-app.qml:184
+msgid "Next Track"
+msgstr "Nākamais celiņš"
+
+#: app/music-app.qml:190
+msgid "Pause"
+msgstr "Pauzēt"
+
+#: app/music-app.qml:190
+msgid "Play"
+msgstr "Atskaņot"
+
+#: app/music-app.qml:192
+msgid "Pause Playback"
+msgstr "Pauzēt atskaņot"
+
+#: app/music-app.qml:192
+msgid "Continue or start playback"
+msgstr "Turpināt vai sākt atskaņošanu"
+
+#: app/music-app.qml:197
+msgid "Back"
+msgstr "Atpakaļ"
+
+#: app/music-app.qml:198
+msgid "Go back to last page"
+msgstr "Iet atpakaļ uz pēdējo lapu"
+
+#: app/music-app.qml:206
+msgid "Previous"
+msgstr "Iepriekšējais"
+
+#: app/music-app.qml:207
+msgid "Previous Track"
+msgstr "Iepriekšējais celiņš"
+
+#: app/music-app.qml:212
+msgid "Stop"
+msgstr "Apturēt"
+
+#: app/music-app.qml:213
+msgid "Stop Playback"
+msgstr "Apturēt atskaņošanu"
+
+#: app/music-app.qml:325
+msgid "Debug: "
+msgstr "Atkļūdošana: "
+
+#: app/music-app.qml:749 app/ui/AddToPlaylist.qml:117 app/ui/Recent.qml:79
+#: app/ui/SongsView.qml:90
+msgid "Recent"
+msgstr "Nesenie"
+
+#: app/music-app.qml:799 app/ui/Artists.qml:36
+msgid "Artists"
+msgstr "Izpildītāji"
+
+#: app/music-app.qml:821 app/ui/Albums.qml:32
+msgid "Albums"
+msgstr "Albumi"
+
+#: app/music-app.qml:843 app/ui/Genres.qml:32
+msgid "Genres"
+msgstr "Žanri"
+
+#: app/music-app.qml:865 app/ui/Songs.qml:36
+msgid "Tracks"
+msgstr ""
+
+#. TRANSLATORS: this is the name of the playlists page shown in the tab header.
+#. Remember to keep the translation short to fit the screen width
+#: app/music-app.qml:887 app/ui/AddToPlaylist.qml:107 app/ui/Playlists.qml:36
+#: app/ui/SongsView.qml:102
+msgid "Playlists"
+msgstr "Repertuāri"
+
+#. TRANSLATORS: this appears in the header with limited space (around 20 characters)
+#: app/music-app.qml:953 app/ui/NowPlaying.qml:117
+msgid "Now playing"
+msgstr "Šobrīd atskaņo"
+
+#. TRANSLATORS: this appears in the header with limited space (around 20 characters)
+#: app/ui/AddToPlaylist.qml:43
+msgid "Select playlist"
+msgstr "Izvēlēties repertuāru"
+
+#: app/ui/AddToPlaylist.qml:102 app/ui/Playlists.qml:87
+#: app/ui/SongsView.qml:278 app/ui/SongsView.qml:279
+#, qt-format
+msgid "%1 track"
+msgid_plural "%1 tracks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/ui/Albums.qml:75 app/ui/ArtistView.qml:146 app/ui/ArtistView.qml:159
+#: app/ui/Recent.qml:113 app/ui/SongsView.qml:226
+msgid "Unknown Album"
+msgstr "Nezināms albums"
+
+#: app/ui/Albums.qml:79 app/ui/SongsView.qml:249
+#, fuzzy
+#| msgid "Previous"
+msgid "Various"
+msgstr "Iepriekšējais"
+
+#: app/ui/Albums.qml:85 app/ui/ArtistView.qml:85 app/ui/ArtistView.qml:158
+#: app/ui/Artists.qml:79 app/ui/Recent.qml:114 app/ui/SongsView.qml:255
+msgid "Unknown Artist"
+msgstr "Nezināms izpildītājs"
+
+#: app/ui/Albums.qml:96 app/ui/ArtistView.qml:157 app/ui/Recent.qml:129
+msgid "Album"
+msgstr "Albums"
+
+#: app/ui/ArtistView.qml:104
+#, qt-format
+msgid "%1 album"
+msgid_plural "%1 albums"
+msgstr[0] "%1 albums"
+msgstr[1] "%1 albumi"
+msgstr[2] "%1 albumu"
+
+#: app/ui/Artists.qml:87
+msgid "Artist"
+msgstr "Mākslinieks"
+
+#: app/ui/ContentHubExport.qml:34
+msgid "Export Track"
+msgstr ""
+
+#: app/ui/Genres.qml:111 app/ui/Genres.qml:113 app/ui/SongsView.qml:178
+#: app/ui/SongsView.qml:193 app/ui/SongsView.qml:212 app/ui/SongsView.qml:258
+#: app/ui/SongsView.qml:277 app/ui/SongsView.qml:304
+msgid "Genre"
+msgstr "Žanrs"
+
+#: app/ui/LibraryEmptyState.qml:122
+msgid "No music found"
+msgstr "Nav atrasta mūzika"
+
+#. TRANSLATORS: this appears in the header with limited space (around 20 characters)
+#: app/ui/NowPlaying.qml:119
+msgid "Full view"
+msgstr "Pilns skats"
+
+#. TRANSLATORS: this appears in the header with limited space (around 20 characters)
+#: app/ui/NowPlaying.qml:121
+msgid "Queue"
+msgstr "Rinda"
+
+#: app/ui/Playlists.qml:99 app/ui/Playlists.qml:100 app/ui/Recent.qml:114
+#: app/ui/Recent.qml:129 app/ui/SongsView.qml:66 app/ui/SongsView.qml:81
+#: app/ui/SongsView.qml:113 app/ui/SongsView.qml:123 app/ui/SongsView.qml:165
+#: app/ui/SongsView.qml:180 app/ui/SongsView.qml:195 app/ui/SongsView.qml:211
+#: app/ui/SongsView.qml:257 app/ui/SongsView.qml:287 app/ui/SongsView.qml:290
+#: app/ui/SongsView.qml:306
+msgid "Playlist"
+msgstr "Repertuārs"
+
+#: app/ui/SettingsPage.qml:26
+msgid "Settings"
+msgstr ""
+
+#: app/ui/SettingsPage.qml:66
+msgid "Keep screen on while music is played"
+msgstr ""

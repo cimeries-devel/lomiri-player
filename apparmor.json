@@ -1,0 +1,20 @@
+{
+    "policy_version": 20.04,
+    "policy_groups": [
+        "audio",
+        "content_exchange",
+        "content_exchange_source",
+        "music_files_read",
+        "networking",
+        "keep-display-on",
+        "usermetrics"
+    ],
+    "read_path": [
+        "@{HOME}/.cache/media-art/",
+        "@{HOME}/.cache/mediascanner-2.0/",
+        "/media/*/*/"
+    ],
+    "write_path": [
+        "@{HOME}/Music/Imported/"
+    ]
+}

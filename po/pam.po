@@ -1,0 +1,411 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Canonical Ltd.
+# This file is distributed under the same license as the lomiri-music-app package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lomiri-music-app\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-18 11:47+0000\n"
+"PO-Revision-Date: 2023-01-04 19:47+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Pampanga <https://hosted.weblate.org/projects/lomiri/lomiri-"
+"music-app/pam/>\n"
+"Language: pam\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.15.1-dev\n"
+
+#: lomiri-music-app.desktop.in:3 app/music-app.qml:296
+msgid "Music"
+msgstr ""
+
+#: lomiri-music-app.desktop.in:4
+msgid "A music application for Lomiri"
+msgstr ""
+
+#: lomiri-music-app.desktop.in:5
+msgid "music;songs;play;tracks;player;tunes;"
+msgstr ""
+
+#: lomiri-music-app.desktop.in:9
+msgid "/usr/share/lomiri-music-app/app/graphics/music-app.svg"
+msgstr ""
+
+#: app/components/Dialog/ContentHubErrorDialog.qml:35
+msgid "OK"
+msgstr ""
+
+#: app/components/Dialog/ContentHubNotFoundDialog.qml:29
+msgid "Imported file not found"
+msgstr ""
+
+#: app/components/Dialog/ContentHubNotFoundDialog.qml:33
+msgid "Wait"
+msgstr ""
+
+#: app/components/Dialog/ContentHubNotFoundDialog.qml:43
+#: app/components/Dialog/EditPlaylistDialog.qml:76
+#: app/components/Dialog/NewPlaylistDialog.qml:71
+#: app/components/Dialog/RemovePlaylistDialog.qml:60
+#, fuzzy
+msgid "Cancel"
+msgstr "Cancel"
+
+#: app/components/Dialog/ContentHubWaitDialog.qml:34
+msgid "Waiting for file(s)..."
+msgstr ""
+
+#. TRANSLATORS: this is a title of a dialog with a prompt to rename a playlist
+#: app/components/Dialog/EditPlaylistDialog.qml:30
+msgid "Rename playlist"
+msgstr ""
+
+#: app/components/Dialog/EditPlaylistDialog.qml:37
+#: app/components/Dialog/NewPlaylistDialog.qml:34
+msgid "Enter playlist name"
+msgstr ""
+
+#: app/components/Dialog/EditPlaylistDialog.qml:46
+msgid "Change"
+msgstr ""
+
+#: app/components/Dialog/EditPlaylistDialog.qml:67
+#: app/components/Dialog/NewPlaylistDialog.qml:60
+msgid "Playlist already exists"
+msgstr ""
+
+#: app/components/Dialog/EditPlaylistDialog.qml:71
+#: app/components/Dialog/NewPlaylistDialog.qml:65
+msgid "Please type in a name."
+msgstr ""
+
+#: app/components/Dialog/NewPlaylistDialog.qml:30
+msgid "New playlist"
+msgstr ""
+
+#: app/components/Dialog/NewPlaylistDialog.qml:44
+msgid "Create"
+msgstr ""
+
+#. TRANSLATORS: this is a title of a dialog with a prompt to delete a playlist
+#: app/components/Dialog/RemovePlaylistDialog.qml:31
+msgid "Permanently delete playlist?"
+msgstr ""
+
+#: app/components/Dialog/RemovePlaylistDialog.qml:32
+msgid "This cannot be undone"
+msgstr ""
+
+#: app/components/Dialog/RemovePlaylistDialog.qml:37
+#: app/components/ListItemActions/Remove.qml:27
+msgid "Remove"
+msgstr ""
+
+#: app/components/HeadState/MultiSelectHeadState.qml:36
+msgid "Cancel selection"
+msgstr ""
+
+#: app/components/HeadState/MultiSelectHeadState.qml:47
+#, fuzzy
+msgid "Select All"
+msgstr "Select All"
+
+#. TRANSLATORS: this action appears in the overflow drawer with limited space (around 18 characters)
+#: app/components/HeadState/MultiSelectHeadState.qml:58
+#: app/components/HeadState/QueueHeadState.qml:51
+#: app/components/ListItemActions/AddToPlaylist.qml:26
+msgid "Add to playlist"
+msgstr ""
+
+#: app/components/HeadState/MultiSelectHeadState.qml:76
+msgid "Add to queue"
+msgstr ""
+
+#: app/components/HeadState/MultiSelectHeadState.qml:94
+#, fuzzy
+msgid "Delete"
+msgstr "Delete"
+
+#. TRANSLATORS: this action appears in the overflow drawer with limited space (around 18 characters)
+#: app/components/HeadState/QueueHeadState.qml:67
+msgid "Clear queue"
+msgstr ""
+
+#: app/components/HeadState/SearchHeadState.qml:38
+msgid "Search music"
+msgstr ""
+
+#. TRANSLATORS: This string represents that the target destination filepath does not start with ~/Music/Imported/
+#: app/components/Helpers/ContentHubHelper.qml:87
+#, qt-format
+msgid "Filepath must start with %1"
+msgstr ""
+
+#. TRANSLATORS: This string represents that a blank filepath destination has been used
+#: app/components/Helpers/ContentHubHelper.qml:115
+msgid "Filepath must be a file"
+msgstr ""
+
+#. TRANSLATORS: This string represents that there was failure moving the file to the target destination
+#: app/components/Helpers/ContentHubHelper.qml:121
+msgid "Failed to copy file"
+msgstr ""
+
+#. TRANSLATORS: this refers to a number of tracks greater than one. The actual number will be prepended to the string automatically (plural forms are not yet fully supported in usermetrics, the library that displays that string)
+#: app/components/Helpers/UserMetricsHelper.qml:31
+msgid "tracks played today"
+msgstr ""
+
+#: app/components/Helpers/UserMetricsHelper.qml:32
+msgid "No tracks played today"
+msgstr ""
+
+#: app/components/ListItemActions/AddToQueue.qml:28
+msgid "Add to Queue"
+msgstr ""
+
+#: app/components/LoadingSpinnerComponent.qml:47
+msgid "Loading..."
+msgstr ""
+
+#: app/components/MusicPage.qml:83
+msgid "No items found"
+msgstr ""
+
+#: app/components/MusicToolbar.qml:91
+msgid "Tap to shuffle music"
+msgstr ""
+
+#: app/components/PlaylistsEmptyState.qml:44
+msgid "No playlists found"
+msgstr ""
+
+#: app/components/PlaylistsEmptyState.qml:55
+#, qt-format
+msgid ""
+"Get more out of Music by tapping the %1 icon to start making playlists for "
+"every mood and occasion."
+msgstr ""
+
+#. TRANSLATORS: this appears in a button with limited space (around 14 characters)
+#: app/components/ViewButton/PlayAllButton.qml:28
+msgid "Play all"
+msgstr ""
+
+#. TRANSLATORS: this appears in a button with limited space (around 14 characters)
+#: app/components/ViewButton/QueueAllButton.qml:45
+msgid "Queue all"
+msgstr ""
+
+#. TRANSLATORS: this appears in a button with limited space (around 14 characters)
+#: app/components/ViewButton/ShuffleButton.qml:45
+msgid "Shuffle"
+msgstr ""
+
+#: app/components/Walkthrough/Slide1.qml:60
+msgid "Welcome to Music"
+msgstr ""
+
+#: app/components/Walkthrough/Slide1.qml:74
+msgid ""
+"Enjoy your favorite music with Lomiri's Music App. Take a short tour on how "
+"to get started or press skip to start listening now."
+msgstr ""
+
+#: app/components/Walkthrough/Slide2.qml:55
+msgid "Import your music"
+msgstr ""
+
+#: app/components/Walkthrough/Slide2.qml:68 app/ui/LibraryEmptyState.qml:134
+msgid ""
+"Connect your device to any computer and simply drag files to the Music "
+"folder or insert removable media with music."
+msgstr ""
+
+#: app/components/Walkthrough/Slide3.qml:55
+msgid "Download new music"
+msgstr ""
+
+#: app/components/Walkthrough/Slide3.qml:68
+msgid "Directly import music bought while browsing online."
+msgstr ""
+
+#: app/components/Walkthrough/Slide3.qml:82
+msgid "Start"
+msgstr ""
+
+#: app/components/Walkthrough/Walkthrough.qml:119
+msgid "Skip"
+msgstr ""
+
+#: app/music-app.qml:183
+msgid "Next"
+msgstr ""
+
+#: app/music-app.qml:184
+msgid "Next Track"
+msgstr ""
+
+#: app/music-app.qml:190
+msgid "Pause"
+msgstr ""
+
+#: app/music-app.qml:190
+msgid "Play"
+msgstr ""
+
+#: app/music-app.qml:192
+msgid "Pause Playback"
+msgstr ""
+
+#: app/music-app.qml:192
+msgid "Continue or start playback"
+msgstr ""
+
+#: app/music-app.qml:197
+msgid "Back"
+msgstr ""
+
+#: app/music-app.qml:198
+msgid "Go back to last page"
+msgstr ""
+
+#: app/music-app.qml:206
+msgid "Previous"
+msgstr ""
+
+#: app/music-app.qml:207
+msgid "Previous Track"
+msgstr ""
+
+#: app/music-app.qml:212
+msgid "Stop"
+msgstr ""
+
+#: app/music-app.qml:213
+msgid "Stop Playback"
+msgstr ""
+
+#: app/music-app.qml:325
+msgid "Debug: "
+msgstr ""
+
+#: app/music-app.qml:749 app/ui/AddToPlaylist.qml:117 app/ui/Recent.qml:79
+#: app/ui/SongsView.qml:90
+msgid "Recent"
+msgstr ""
+
+#: app/music-app.qml:799 app/ui/Artists.qml:36
+msgid "Artists"
+msgstr ""
+
+#: app/music-app.qml:821 app/ui/Albums.qml:32
+msgid "Albums"
+msgstr ""
+
+#: app/music-app.qml:843 app/ui/Genres.qml:32
+msgid "Genres"
+msgstr ""
+
+#: app/music-app.qml:865 app/ui/Songs.qml:36
+msgid "Tracks"
+msgstr ""
+
+#. TRANSLATORS: this is the name of the playlists page shown in the tab header.
+#. Remember to keep the translation short to fit the screen width
+#: app/music-app.qml:887 app/ui/AddToPlaylist.qml:107 app/ui/Playlists.qml:36
+#: app/ui/SongsView.qml:102
+msgid "Playlists"
+msgstr ""
+
+#. TRANSLATORS: this appears in the header with limited space (around 20 characters)
+#: app/music-app.qml:953 app/ui/NowPlaying.qml:117
+msgid "Now playing"
+msgstr ""
+
+#. TRANSLATORS: this appears in the header with limited space (around 20 characters)
+#: app/ui/AddToPlaylist.qml:43
+msgid "Select playlist"
+msgstr ""
+
+#: app/ui/AddToPlaylist.qml:102 app/ui/Playlists.qml:87
+#: app/ui/SongsView.qml:278 app/ui/SongsView.qml:279
+#, qt-format
+msgid "%1 track"
+msgid_plural "%1 tracks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/ui/Albums.qml:75 app/ui/ArtistView.qml:146 app/ui/ArtistView.qml:159
+#: app/ui/Recent.qml:113 app/ui/SongsView.qml:226
+msgid "Unknown Album"
+msgstr ""
+
+#: app/ui/Albums.qml:79 app/ui/SongsView.qml:249
+msgid "Various"
+msgstr ""
+
+#: app/ui/Albums.qml:85 app/ui/ArtistView.qml:85 app/ui/ArtistView.qml:158
+#: app/ui/Artists.qml:79 app/ui/Recent.qml:114 app/ui/SongsView.qml:255
+msgid "Unknown Artist"
+msgstr ""
+
+#: app/ui/Albums.qml:96 app/ui/ArtistView.qml:157 app/ui/Recent.qml:129
+msgid "Album"
+msgstr ""
+
+#: app/ui/ArtistView.qml:104
+#, qt-format
+msgid "%1 album"
+msgid_plural "%1 albums"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/ui/Artists.qml:87
+msgid "Artist"
+msgstr ""
+
+#: app/ui/ContentHubExport.qml:34
+msgid "Export Track"
+msgstr ""
+
+#: app/ui/Genres.qml:111 app/ui/Genres.qml:113 app/ui/SongsView.qml:178
+#: app/ui/SongsView.qml:193 app/ui/SongsView.qml:212 app/ui/SongsView.qml:258
+#: app/ui/SongsView.qml:277 app/ui/SongsView.qml:304
+msgid "Genre"
+msgstr ""
+
+#: app/ui/LibraryEmptyState.qml:122
+msgid "No music found"
+msgstr ""
+
+#. TRANSLATORS: this appears in the header with limited space (around 20 characters)
+#: app/ui/NowPlaying.qml:119
+msgid "Full view"
+msgstr ""
+
+#. TRANSLATORS: this appears in the header with limited space (around 20 characters)
+#: app/ui/NowPlaying.qml:121
+msgid "Queue"
+msgstr ""
+
+#: app/ui/Playlists.qml:99 app/ui/Playlists.qml:100 app/ui/Recent.qml:114
+#: app/ui/Recent.qml:129 app/ui/SongsView.qml:66 app/ui/SongsView.qml:81
+#: app/ui/SongsView.qml:113 app/ui/SongsView.qml:123 app/ui/SongsView.qml:165
+#: app/ui/SongsView.qml:180 app/ui/SongsView.qml:195 app/ui/SongsView.qml:211
+#: app/ui/SongsView.qml:257 app/ui/SongsView.qml:287 app/ui/SongsView.qml:290
+#: app/ui/SongsView.qml:306
+msgid "Playlist"
+msgstr ""
+
+#: app/ui/SettingsPage.qml:26
+msgid "Settings"
+msgstr ""
+
+#: app/ui/SettingsPage.qml:66
+msgid "Keep screen on while music is played"
+msgstr ""
